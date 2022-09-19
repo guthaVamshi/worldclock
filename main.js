@@ -20,7 +20,7 @@ window.onload = function () {
         console.log(timeZoneOfCity);
         timezoneval.innerHTML = timeZoneOfCity;
         var settings = {
-          "url": "http://worldtimeapi.org/api/" + timeZoneOfCity,
+          "url": "https://worldtimeapi.org/api/" + timeZoneOfCity,
           "method": "GET",
           "timeout": 0,
         };
