@@ -5,12 +5,13 @@
 }
 
 .timeZoneDisplaySection{
-    background-color: #e2e2e2;
+    background-image: url('https://img.wallpapersafari.com/desktop/1024/576/16/77/cG8lUy.jpg');
     background-position: center;
     background-size: cover;
     font-size: x-large;
 }
 .timeDisplaySection{
+    background-color: #e2e2e2;
     background-image: url('https://i.pinimg.com/originals/fa/5c/97/fa5c9781f2bea63e1c14e94b47a38eb2.gif');
     background-position: center;
     background-size: cover;
