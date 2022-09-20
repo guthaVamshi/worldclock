@@ -4,11 +4,13 @@ window.onload = function () {
   var timezoneval = document.querySelector('.timezone');
   var timeval = document.querySelector('.time');
   var spinner = document.querySelector('.spinners');
+  var spinnerZ = document.querySelector('.spinnerZone');
   var timeZoneOfCity;
   var Fulltime;
   var timeT;
   submit.addEventListener('click', function () {
     spinner.style.display = 'block';
+    spinnerZ.style.display = 'block';
     $.ajax({
       method: 'GET',
       url: 'https://api.api-ninjas.com/v1/timezone?city=' + city.value,

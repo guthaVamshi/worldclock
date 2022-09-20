@@ -16,6 +16,6 @@
     background-size: cover;
     font-size: x-large;
 }
-.spinners{
+.spinners,.spinnerZone{
     display: none;
 }
